@@ -82,7 +82,7 @@ class Currentweatherframe(ctk.CTkFrame):# bản mẫu, một khuôn mẫu. Ở �
         bottomcontainer.place(relx=0.25, rely=0.82, anchor=CENTER)
         cityimglabel1=ctk.CTkLabel(self,text='')
         cityimglabel1.place(relx=0.5, rely=0.5, anchor=CENTER)
-        cityimg=ctk.CTkImage(light_image=Image.open('/Users/saladhouse/Downloads/weather-app-master/bgfootage/buildings.png'),size=(300,300))
+        cityimg=ctk.CTkImage(light_image=Image.open('./buildings.png'),size=(300,300))
         cityimglabel=ctk.CTkLabel(bottomcontainer,image=cityimg,text='')
         cityimglabel.pack()
         
