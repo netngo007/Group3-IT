@@ -11,6 +11,7 @@ class App(ctk.CTk):
         
         self.title('Weather forecast') # dat ten window
         self.geometry('1200x800')   # size window
+        self.resizable(False,False)
         self.configure(fg_color='#5c9ce4') #chỉnh lại màu của app 
         #widget
         self.columnconfigure(0,weight=0) # chỉnh lại độ to của cột 0
